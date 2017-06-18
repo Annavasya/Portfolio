@@ -1,5 +1,16 @@
 .image {
     height: auto;
-    width: 300px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+
+}
+#header {
+    background: black;
+    height: 100px;
+}
+.intro {
+    background-color: #eae0c5;
 
 }
