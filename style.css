@@ -72,3 +72,72 @@ section#intro {
     border-width: 10px;
     border-radius: 10%;
 }
+a:hover {
+    text-decoration: none;
+}
+a h1 {
+    color: white;
+    font-family: Futura;
+    z-index: 4;
+
+}
+
+
+
+.box {
+  position:relative;
+  vertical-align: middle;
+  color: white;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.5s;
+  padding: 0 20px;
+  cursor: pointer;
+  border: 2px solid #eae0c5;
+  -webkit-transition:0.5s;
+}
+
+.box:hover {
+  border: 2px solid rgba(0,160,80,0);
+  color: #FFF;
+}
+
+.box::before, .box::after {
+  width: 76%;
+  height:129%;
+  z-index: 3;
+  content:'';
+  position: absolute;
+  top: 2px;
+  left: 46px;
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  transition: 0.5s;
+}
+
+.foo::before {
+  border-bottom: 3px solid #FFF;
+  border-left: 3px solid #FFF;
+  -webkit-transform-origin: 0 100%;
+}
+
+.foo::after {
+  border-top: 3px solid #FFF;
+  border-right: 3px solid #FFF;
+  -webkit-transform-origin: 100% 0%;
+}
+
+
+
+.box:hover::after, .box:hover::before {
+  -webkit-transform: scale(1);
+}
+
+#contacts {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
