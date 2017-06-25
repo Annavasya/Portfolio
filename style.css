@@ -1,3 +1,17 @@
+body {
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 10px 100px;
+}
+
+section#intro {
+    color: black;
+
+}
 .image {
     height: auto;
     width: 100%;
@@ -9,41 +23,52 @@
 #header {
     background: #eae0c5;
     height: 100px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 2;
 }
 .intro {
     background-color: #eae0c5;
 
 }
 .main-image {
-   height: auto;
+    height: auto;
     width: 100%;
     margin: auto;
     position: relative;
-    border: 300px; 300px; 300px; 300px;
+    border: 300px 300px 300px 300px;
+
+   
 }
 
 .thumbnail {
-  border: 5px solid white;
-  background: white;
+    border: 5px solid white;
+    background: white;
+    border-color: #eae0c5;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10%;
+
 }
 
-.body {
-    border: 100px solid white;
-  background: white
-  margin-top: 10px;
-  margin-right: 100px;
-  margin-bottom: 10px;
-margin-left: 100px;
-background-image: url("hatbw.jpg");
-}
+
 
 .text-border {
     border: 100px solid white;
     background-color: white;
-  margin-top: 10px;
-  margin-right: 100px;
-  margin-bottom: 10px;
-margin-left: 100px;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 100px;
 }
+.align-right {
+    text-align: right;
 
+}
+.image-circular {
+    border: 5px solid white;
+    background: white;
+    border-width: 10px;
+    border-radius: 10%;
 }
