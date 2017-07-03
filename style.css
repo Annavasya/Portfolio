@@ -23,10 +23,12 @@ section#intro {
 #header {
     background: #eae0c5;
     height: 100px;
+    color: white;
     position: fixed;
     right: 0;
     left: 0;
     z-index: 2;
+    font-family: Futura;
 }
 .intro {
     background-color: #eae0c5;
