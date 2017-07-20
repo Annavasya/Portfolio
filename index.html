@@ -1,8 +1,8 @@
-<html>
+   <html>   
    <head>
-        <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">   
+        <link rel="stylesheet" href="contactform.css">
     </head> 
    <body class="initial">
        <header id="header">
@@ -75,9 +75,42 @@
             </div>
         </section>
         <section id="contacts">
-            <form><button class="btn btn-primary">Send</button>
-            <input type="text" placeholder="contact me">
-            </form>
+              <div>    
+                    <div class="main clearfix">
+                        <form id="nl-form" class="nl-form">
+                            whant to contact me?
+                            <select>
+                                <option value="1" selected> yes</option>
+                                <option value="2">maybe</option>
+                                <option value="3">no</option>
+                                <option value="4">would love to</option>
+                                <option value="2">your page sucks</option>
+                            </select>
+                            <br />in a
+                            <select>
+                                <option value="1" selected>standard</option>
+                                <option value="2">fancy</option>
+                                <option value="3">hip</option>
+                                <option value="4">traditional</option>
+                                <option value="2">romantic</option>
+                            </select>
+                            restaurant
+                            <br />at 
+                            <select>
+                                <option value="1" selected>anytime</option>
+                                <option value="1">7 p.m.</option>
+                                <option value="2">8 p.m.</option>
+                                <option value="3">9 p.m.</option>
+                            </select>
+                            in <input type="text" value="" placeholder="any city" data-subline="For example: <em>Los Angeles</em> or <em>New York</em>"/>
+                            <div class="nl-submit-wrap">
+                                <button class="nl-submit" type="submit">sent it out!</button>
+                            </div>
+                            <div class="nl-overlay"></div>
+                        </form>
+                    </div>
+                </div><!-- /container -->
+            </div>    
         </section>
            <hr> 
      <footer class="text-center font-size">
