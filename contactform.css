@@ -241,11 +241,11 @@ input:focus::-ms-input-placeholder {
 
 .no-touch .nl-form .nl-submit:hover,
 .no-touch .nl-form .nl-submit:active {
-	background: #69B1A9;
+	background: #fff;
 }
 
 .no-touch .nl-form .nl-submit:hover:before {
-	background: #58a199;
+	background: #fff;
 }
 
 /* overlay becomes visible when a field is opened */
