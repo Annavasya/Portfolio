@@ -231,7 +231,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .nl-submit:before {
-	content: "😘";
+	content: "▶︎";
 	color: #fff;
 	float: left;
 	padding: 0 0.7em;
